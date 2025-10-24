@@ -1,2 +1,5 @@
+import React from "react";
 import "./styles/global.css";
-export * from "./components";
+import { ECODButton } from "./components/button";
+
+export const Button = ECODButton;
